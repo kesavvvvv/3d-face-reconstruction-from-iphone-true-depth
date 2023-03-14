@@ -1,1 +1,1 @@
-# 3d-face-reconstruction-from-iphone-true-depth
+# 3D Face Reconstruction from iPhone's TrueDepth Sensor
