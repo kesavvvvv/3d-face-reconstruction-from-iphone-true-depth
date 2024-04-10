@@ -16,7 +16,8 @@ Building the app in xcode
    <img width="348" alt="image" src="https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/763148bd-e1a5-489e-b360-f152fea25fc2">
    <img width="375" alt="image" src="https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/95939a05-ce52-4d20-a94f-334dff8d53a8">
 9. Once installed go to Settings -> General -> VPN & Device Management -> Devleloper App -> Trust App
-    ![image](https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/c3f71bad-45b5-4275-93db-cd1df6057548)
+   <img width="448" alt="image" src="https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/a991b1d5-c8e5-4489-8c63-78ae7b5657b5">
+
 
 
 
