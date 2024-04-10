@@ -7,7 +7,7 @@ Building the app in xcode
 3. Open the project file 3DFR True Depth.xcodeproj in xcode.
 4. Double click on 3DFR TrueDepth on the left. \
    <img width="391" alt="image" src="https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/ef24a795-5f04-4e1b-acfd-6e2f26f7b87a">
-5. Under Signing & Certificates, sign into and select you Apple Developer account. \
+5. Under Signing & Certificates, sign into and select your Apple Developer account. \
    <img width="780" alt="image" src="https://github.com/kesavvvvv/3d-face-reconstruction-from-iphone-true-depth/assets/49778131/c4feffef-a9a2-4383-86fc-5dd8c5885dd2">
 6. Follow this guide to enable devloper mode and connect iPhone to mac https://docs.expo.dev/guides/ios-developer-mode/ \
 7. Make sure your phone is selected in the target menu. \
