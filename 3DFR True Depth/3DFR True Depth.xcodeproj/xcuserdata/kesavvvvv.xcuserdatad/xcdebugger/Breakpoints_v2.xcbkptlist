@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "50B901C9-A958-4AA3-8D90-125B08285250"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "41BBA696-9174-4C5F-8808-8C8AFA09A822"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "380"
+            endingLineNumber = "380"
+            landmarkName = "continuous_point_cloud(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "41BBA696-9174-4C5F-8808-8C8AFA09A822 - 368da7ad6e7163e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.continuous_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "366"
+                  endingLineNumber = "366"
+                  offsetFromSymbolStart = "7612">
+               </Location>
+               <Location
+                  uuid = "41BBA696-9174-4C5F-8808-8C8AFA09A822 - 368da7ad6e716387"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.continuous_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "363"
+                  endingLineNumber = "363"
+                  offsetFromSymbolStart = "7620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACD32512-1AF5-4EB6-9A75-64ABF2A0E5F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
+            landmarkName = "continuous_point_cloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDD2DCE3-1FC9-4886-8F8D-46EF60DC7089"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "continuous_point_cloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCCC1F98-67EC-4416-8193-EE689D44EE9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "834"
+            endingLineNumber = "834"
+            landmarkName = "capture_point_cloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC1E8FBE-F9BE-45C5-A334-70B687521CD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "634"
+            endingLineNumber = "634"
+            landmarkName = "capture_point_cloud(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC1E8FBE-F9BE-45C5-A334-70B687521CD3 - 2c8e771b071dc30c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.capture_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "608"
+                  endingLineNumber = "608"
+                  offsetFromSymbolStart = "6200">
+               </Location>
+               <Location
+                  uuid = "BC1E8FBE-F9BE-45C5-A334-70B687521CD3 - 2c8e771b071dc32d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.capture_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "607"
+                  endingLineNumber = "607"
+                  offsetFromSymbolStart = "5528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "599181DB-B78F-4473-82EB-F82F5BD5C09B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
+            landmarkName = "continuous_point_cloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B82B1B1-572B-4803-8367-0A5CE7F5B805"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1298"
+            endingLineNumber = "1298"
+            landmarkName = "dataOutputSynchronizer(_:didOutput:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD8AD3C1-670E-4DC2-A0B9-017FA279552C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
+            landmarkName = "capture_point_cloud(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD8AD3C1-670E-4DC2-A0B9-017FA279552C - 2c8e771b071dcbed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.capture_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "543"
+                  endingLineNumber = "543"
+                  offsetFromSymbolStart = "1708">
+               </Location>
+               <Location
+                  uuid = "CD8AD3C1-670E-4DC2-A0B9-017FA279552C - 2c8e771b071dce01"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_DFR_True_Depth.ViewController.capture_point_cloud(Any) -&gt; ()"
+                  moduleName = "3DFR True Depth"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kesavvvvv/Desktop/courses/05_fall_2023/project/3DFR%20True%20Depth/3DFR%20True%20Depth/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "523"
+                  endingLineNumber = "523"
+                  offsetFromSymbolStart = "860">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8C7343B-10B1-4747-9AD8-4EE3083A4366"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1301"
+            endingLineNumber = "1301"
+            landmarkName = "dataOutputSynchronizer(_:didOutput:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51229BA1-DFCE-48A5-BE94-A56DE8C30A0B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1299"
+            endingLineNumber = "1299"
+            landmarkName = "dataOutputSynchronizer(_:didOutput:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0611C93-A619-4FE5-809B-6234BB581433"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3DFR True Depth/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "355"
+            endingLineNumber = "355"
+            landmarkName = "continuous_point_cloud(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
