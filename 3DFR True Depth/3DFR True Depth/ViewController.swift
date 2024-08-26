@@ -84,6 +84,10 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        nameToggle.isOn = false
+        imageToggle.isOn = false
+        depthColorToggle.isOn = false
+        
         // Do any additional setup after loading the view.
         
         self.hideKeyboardWhenTappedAround()
@@ -1293,7 +1297,7 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
                 self.image_view.image = displayImage
             }
         
-        if(!self.nameToggle.isOn && self.frameCounter < 4) {
+        if(!self.nameToggle.isOn && self.frameCounter < 100 && self.frameCounter % 10 == 0) {
             
             self.frameCounter += 1
             print(frameCounter)
@@ -1313,6 +1317,9 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
                 self.videoFrameBuffer.append(videoFrameCopy)
             }
             
+        }
+        if(!self.nameToggle.isOn && self.frameCounter < 100) {
+            self.frameCounter += 1
         }
         
     }
