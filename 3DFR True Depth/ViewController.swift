@@ -585,12 +585,16 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
                     //            let realZ = getDepth(from: depthPixelBuffer!, atXRatio: xRatio, atYRatio: yRatio)
                     let realX = (xRatio * 3019.0 - 1505.961) * f32Pixel * 100 / 2748.359
                     let realY = (yRatio * 4032.0 - 2023.0803) * f32Pixel * 100 / 2748.359
-                    if(!realX.isNaN || !realY.isNaN || !f32Pixel.isNaN) {
-                        line.append(String(-realX) + " " + String(-realY) + " " + String(-f32Pixel * 100) + " ")
+                    if((f32Pixel * 100) < 50) {
+                        if(!realX.isNaN || !realY.isNaN || !f32Pixel.isNaN) {
+                            line.append(String(-realX) + " " + String(-realY) + " " + String(-f32Pixel * 100) + " ")
+                        }
                     }
                 } else {
-                    if(!f32Pixel.isNaN) {
-                        line.append(String(-f32Pixel * 100) + " ")
+                    if((f32Pixel * 100) < 50) {
+                        if(!f32Pixel.isNaN) {
+                            line.append(String(-f32Pixel * 100) + " ")
+                        }
                     }
                 }
                 
@@ -996,24 +1000,6 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
                 
 //                print(CGFloat(CVPixelBufferGetWidth(resizedBuffer!)))
                     
-                CVPixelBufferLockBaseAddress(resizedBuffer!, CVPixelBufferLockFlags(rawValue: 0))
-                let baseAddress = CVPixelBufferGetBaseAddress(resizedBuffer!)
-                let int32PerRow = CVPixelBufferGetBytesPerRow(resizedBuffer!)
-                let int32Buffer = baseAddress!.assumingMemoryBound(to: UInt8.self)
-                
-            
-//                let bytesPerRow = CVPixelBufferGetBytesPerRow(movieFrame)
-//                    let buffer = baseAddress!.assumingMemoryBound(to: UInt8.self)
-                    
-                let index = (j) * 4 + (i) * Double(int32PerRow)
-                let b = int32Buffer[Int(index)]
-                let g = int32Buffer[Int(index)+1]
-                let r = int32Buffer[Int(index)+2]
-
-                // Get BGRA value for pixel (43, 17)
-//                let luma = int32Buffer[17 * int32PerRow + 43*4]
-
-                CVPixelBufferUnlockBaseAddress(resizedBuffer!, CVPixelBufferLockFlags(rawValue: 0))
                     
                     // Convert the depth frame format to cm
                     //let depthString = String(format: "%.2f cm", f32Pixel * 100)
@@ -1026,9 +1012,34 @@ class ViewController: UIViewController, AVCaptureDataOutputSynchronizerDelegate 
                     //            let realZ = getDepth(from: depthPixelBuffer!, atXRatio: xRatio, atYRatio: yRatio)
                     let realX = (xRatio * 3019.0 - 1505.961) * f32Pixel * 100 / 2748.359
                     let realY = (yRatio * 4032.0 - 2023.0803) * f32Pixel * 100 / 2748.359
-                    if(!realX.isNaN || !realY.isNaN || !f32Pixel.isNaN || (f32Pixel * 100) < 130) {
-                        output.append(String(-realX) + " " + String(-realY) + " " + String(-f32Pixel * 100) + " " + String(r) + " " + String(g) + " " + String(b))
+                    if((f32Pixel * 100) < 50) {
+                        if(!realX.isNaN || !realY.isNaN || !f32Pixel.isNaN) {
+                            output.append(String(-realX) + " " + String(-realY) + " " + String(-f32Pixel * 100) + " ")
+                        }
                     }
+                
+                if(depthColorToggle.isOn) {
+                    CVPixelBufferLockBaseAddress(resizedBuffer!, CVPixelBufferLockFlags(rawValue: 0))
+                    let baseAddress = CVPixelBufferGetBaseAddress(resizedBuffer!)
+                    let int32PerRow = CVPixelBufferGetBytesPerRow(resizedBuffer!)
+                    let int32Buffer = baseAddress!.assumingMemoryBound(to: UInt8.self)
+                    
+                    
+                    //                let bytesPerRow = CVPixelBufferGetBytesPerRow(movieFrame)
+                    //                    let buffer = baseAddress!.assumingMemoryBound(to: UInt8.self)
+                    
+                    let index = (j) * 4 + (i) * Double(int32PerRow)
+                    let b = int32Buffer[Int(index)]
+                    let g = int32Buffer[Int(index)+1]
+                    let r = int32Buffer[Int(index)+2]
+                    
+                    // Get BGRA value for pixel (43, 17)
+                    //                let luma = int32Buffer[17 * int32PerRow + 43*4]
+                    
+                    CVPixelBufferUnlockBaseAddress(resizedBuffer!, CVPixelBufferLockFlags(rawValue: 0))
+                    
+                    output.append(String(r) + " " + String(g) + " " + String(b))
+                }
                 //}
                 // Update the label
                 //            DispatchQueue.main.async {

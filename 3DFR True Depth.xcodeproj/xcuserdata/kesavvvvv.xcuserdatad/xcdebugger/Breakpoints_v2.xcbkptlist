@@ -94,8 +94,8 @@
             filePath = "3DFR True Depth/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "838"
-            endingLineNumber = "838"
+            startingLineNumber = "842"
+            endingLineNumber = "842"
             landmarkName = "capture_point_cloud(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "3DFR True Depth/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "638"
-            endingLineNumber = "638"
+            startingLineNumber = "642"
+            endingLineNumber = "642"
             landmarkName = "capture_point_cloud(_:)"
             landmarkType = "7">
             <Locations>
@@ -174,8 +174,8 @@
             filePath = "3DFR True Depth/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1302"
-            endingLineNumber = "1302"
+            startingLineNumber = "1313"
+            endingLineNumber = "1313"
             landmarkName = "dataOutputSynchronizer(_:didOutput:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,8 +238,8 @@
             filePath = "3DFR True Depth/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1305"
-            endingLineNumber = "1305"
+            startingLineNumber = "1316"
+            endingLineNumber = "1316"
             landmarkName = "dataOutputSynchronizer(_:didOutput:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -254,8 +254,8 @@
             filePath = "3DFR True Depth/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1303"
-            endingLineNumber = "1303"
+            startingLineNumber = "1314"
+            endingLineNumber = "1314"
             landmarkName = "dataOutputSynchronizer(_:didOutput:)"
             landmarkType = "7">
          </BreakpointContent>
